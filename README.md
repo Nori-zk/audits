@@ -1,7 +1,10 @@
-# audits
+# Nori Audits
 
-This repository is where we keep the security reviews of Nori Project, along with our response to each one. The first is Zellic's audit, and we'll add future reports here as they're completed. 
+Security reviews of the Nori Project. New reports will be added here as they're completed.
 
-# Zellic 2026
+## Nori Bridge (Ethereum ↔ Mina): Zellic, 2026
 
-This review has two parts: the report from the auditing firm, which explains what they looked at and lists any issues by how serious they are, and our response, which goes through those issues one at a time and explains in plain language what we changed or why we decided a change wasn't needed. You don't need to read code to follow either one.
+- [Report](Nori%20Bridge%20Mina%20-%20Zellic%202026/Nori%20Bridge%20-%20Zellic%20Audit%20Report.pdf): Zellic's assessment, covering what was in scope and each issue found, ranked by severity. 23 findings: 3 critical, 3 high, 1 medium, 4 low, 12 informational.
+- [Response](Nori%20Bridge%20Mina%20-%20Zellic%202026/Nori%20Bridge%20-%20Zellic%20Audit%20Response.pdf): our reply to each finding, explaining in plain language what we changed or why we decided a change wasn't needed, with links to the relevant commits.
+
+The exact code Zellic reviewed is preserved on an `AUDIT` branch in each in-scope repository.
