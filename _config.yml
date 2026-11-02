@@ -1,5 +1,9 @@
 title: Nori Audits
-image: /preview.png
 twitter:
   card: summary_large_image
   username: nori_zk
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /preview.png
